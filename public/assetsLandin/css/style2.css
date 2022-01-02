@@ -1,0 +1,480 @@
+
+
+.image-sujet-preview
+{
+	width : 100% !important;
+}
+.no-margin
+{
+	margin : 0 !important;
+}
+.no-padding
+{
+	padding : 0 !important;
+}
+
+
+
+.page-header{
+  text-align: center;    
+}
+
+/*social buttons*/
+.btn-social{
+  color: white;
+  opacity:0.9;
+}
+.btn-social:hover {
+  color: white;
+    opacity:1;
+}
+.btn-facebook {
+background-color: #3b5998;
+opacity:0.9;
+}
+.btn-twitter {
+background-color: #00aced;
+opacity:0.9;
+}
+.btn-linkedin {
+background-color:#0e76a8;
+opacity:0.9;
+}
+.btn-github{
+  background-color:#000000;
+  opacity:0.9;
+}
+.btn-google {
+  background-color: #c32f10;
+  opacity: 0.9;
+}
+.btn-stackoverflow{
+  background-color: #D38B28;
+  opacity: 0.9;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 0px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d94fce;
+}
+.bs-callout-danger:hover {
+    border-left-color: #d20835;
+}
+
+.bs-callout-danger h4{
+    color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:0;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+   pointer-events: none;
+   cursor: default;
+}
+
+.resume-heading .social-btns{
+  margin-top:15px;
+}
+.resume-heading .social-btns i.fa{
+  margin-left:-5px;
+}
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+	white-space: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+	padding-left: 10px;
+}
+
+.progress-meter {
+	min-height: 15px;
+	border-bottom: 2px solid rgb(160, 160, 160);
+  margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+	position: relative;
+	float: left;
+	min-height: 15px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+	float: right;
+	border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+	position: absolute;
+	display: inline-block;
+	bottom: -20px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.85em;
+	color: rgb(160, 160, 160);
+	text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+	text-align: right;
+}
+
+.icon-like-coment
+{
+	color: #919fa9 !important;
+}
+.icon-like-coment:hover
+{
+	color: #00a8ff !important;
+	cursor : pointer;
+}
+.icon-like-coment-active
+{
+	color: #ff00d2 !important;
+}
+.icon-like-coment-active:hover
+{
+}
+
+.general-padding
+{
+	padding : 1.5em !important;
+}
+
+.image-user-sujet
+{
+	width : 100% !important;
+}
+.image-user-sujet2
+{
+	width : 115% !important;
+}
+.center{
+	margin: auto;
+}
+.double-bordure
+{
+	border: 3px solid rgba(234, 11, 217, 0.28) !important;
+	padding : 5px !important;
+	background-color : transparent !important;
+}
+.blue-name
+{
+	color: #0082c6;
+}
+.date-subject
+{
+	color: #cb2edc;
+	font-size: 0.8em;
+	margin-left: 1.2em;
+}
+
+.bloc-sujet
+{
+	border-bottom : 1px solid #eaeaea;
+	padding-bottom : 1em;
+	margin-bottom : 1em;
+}
+.bloc-repondre
+{
+	border-bottom : 1px solid #eaeaea;
+	padding-bottom : 1em;
+	margin-bottom : 1em;
+}
+.page-center2 {
+    : table !important;
+}
+.page-center-in2 {
+    vertical-align: middle;
+    padding: 15px 0;
+}
+.btn-repondre
+{
+	background-color: rgba(0, 168, 255, 0);
+    border-color: rgba(0, 168, 255, 0);
+	color: #0082c6!important;
+}
+.btn-repondre:hover
+{
+	background-color: rgba(0, 168, 255, 0);
+	border-color: rgba(0, 168, 255, 0);
+	color: #e0089c !important;
+}
+.width-master
+{
+	width : 100% !important;
+}
+p
+{
+	color : gray;
+}
+.mon-panel
+{
+	background-color : white;
+	border-radius: 5px;
+	border: 1px solid #e8e6e6;
+	padding-top : 15px;
+}
+.bloc-reponse-sujet
+{
+	border-left: 4px solid #e62de1 !important;
+}
+
+.bloc-reponse-sujet2
+{
+	border-left: 4px solid #e62de1 !important;
+	margin-bottom : 15px;
+	border-bottom : 1px solid #e8e6e6;
+}
+.no-border-bottom
+{
+	border-bottom : none;
+}
+.link-cat-profil
+{
+	color : #e62de1 !important;
+}
+.link-cat-profil:hover
+{
+	color : #d20835 !important;
+}
+.bloc-sujet-recent {
+    overflow: hidden;
+	max-height : 7em;
+	margin-bottom : 1.5em;
+	border-bottom : 1px solid #eaeaea;
+}
+.nom-user-sujet
+{
+	color: #ff00d2;
+	font-size : 0.8em;
+}
+.padding-index
+{
+	padding-top: 3.5em !important;
+}
+.box-sujet-like
+{
+	background-color: #f7e6f2;
+}
+
+footer 
+{
+	margin-top : 25px;
+}
+footer .line1
+{
+	background-color: #69025c;
+}
+.social ul 
+{
+	display: inline;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+}
+footer .line2
+{
+	/* height : 2em; */
+	background-color: #150112 !important;
+}
+#downMenu li
+{
+	display: inline;
+	margin-left : 2em;
+}
+
+.espace-top-bottom-footer
+{
+	margin-top : 15px;
+	/* margin-bottom : 15px; */
+}
+
+.espace-titre-footer
+{
+	margin-top : 15px;
+	color : white !important;
+}
+.slide2
+{
+	width : 100% !important;
+}
+.f-btn
+{
+	background-color: #5555de;
+	color : white;
+}
+.f-btn:hover
+{
+	background-color : #8888de;
+	color : white;
+}
+.g-btn
+{
+	background-color: #ff5555;
+    color: white;
+}
+.g-btn:hover
+{
+	background-color: #ff8888;
+    color: white;
+}
+
+.t-btn
+{
+	background-color: #58b2f3;
+	color: white;
+}
+.t-btn:hover
+{
+	background-color: #69c3f3;
+    color: white;
+}
+
+.like-footer
+{
+	color : white !important;
+}
+.margin-menu
+{
+	margin-left : 25px;
+}
+.sign-box .sign-avatar2 img {
+    display: block;
+    width: 50%;
+	margin-left : 25%;
+}
+.logo-google-play
+{
+	width : 100%;
+}
+.no-padding-top
+{
+	padding-top : 0px !important;
+}
+.no-padding-top:hover
+{
+	cursor : not-allowed;
+	opacity : 0.3;
+}
+.bloc-soutien
+{
+	padding : 2em;
+	width : 100% !important;
+	background-color: white;
+	border-bottom: 1px solid #d8e2e7;
+	border-left: 1px solid #d8e2e7;
+	border-right: 1px solid #d8e2e7;
+	border-radius: 0 0 .25rem .25rem;
+}
+.lalegende
+{
+	font-size : 1em;
+	color : gray;
+	text-align : left !important;
+}
+.lalegende .rouge
+{
+	background-color: #ff5757 !important;
+	border: 1px solid #dddddd;
+	width : 6px !important;
+	height : 6px !important;
+}
+.lalegende .rose
+{
+	background-color: #ff00bc !important;
+	border: 1px solid #dddddd;
+	width : 6px !important;
+	height : 6px !important;
+}
+.lalegende .bleu
+{
+	background-color: #00a8ff !important;
+	border: 1px solid #dddddd;
+	width : 6px !important;
+	height : 6px !important;
+}
+.lalegende .vert
+{
+	background-color: #e7fae6 !important;
+	border: 1px solid #0dcc13;
+	width : 6px !important;
+	height : 6px !important;
+}
+.lalegende .blanc
+{
+	background-color: white !important;
+	border: 1px solid #dddddd;
+	width : 6px !important;
+	height : 6px !important;
+}
+.bloc-lengende-prevision
+{
+	border-bottom: 1px solid #d8e2e7;
+	margin-bottom : 25px;
+	border-top: 1px solid #d8e2e7;
+	margin-top : 25px;
+	padding-top : 15px !important;
+	padding-bottom : 15px !important;
+}
+.class-imag-pay
+{
+	max-height : 75%;
+	width : auto;
+	max-width : 100% !important;
+	vertical-align : center;
+}
+
+
+

@@ -1,0 +1,74 @@
+.messenger .chat-list-info {
+    float: auto !important;
+    width: 0px !important;
+    position: relative;
+    z-index: -12;
+}
+
+.messenger .chat-area {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.chat-area {
+    float: auto !important;
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+.messenger .chat-area-in {
+    margin-left: 0px !important;
+    border-left: solid 1px #d8e2e7;
+    margin-right: 0px !important;
+}
+.chat-dialog-area {
+    min-height: 300px !important;
+    max-height: 350px !important;
+}
+.margin-top-chat
+{
+    margin-top: 40px;
+}
+.messenger-message-container .messages .message div {
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.messages.bulbe-right ul li{
+    margin-left: 16%;
+}
+
+.messages.bulbe-left ul li{
+    margin-right: 16%;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.message-receiver{
+    float: left;
+}
+.message-sender{
+    float: right;
+}
+.messenger-message-container{
+    display: table;
+    width: 100%;
+}
+.messenger-message-container .messages{
+    width: 85% !important;
+}
+
+.messenger-message-container .messages,
+.messenger-message-container .messages .message{
+    display: block;
+}
+
+/*.messenger .chat-area-in {
+    margin-left: 0px !important;
+}*/

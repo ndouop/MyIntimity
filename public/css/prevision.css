@@ -1,0 +1,521 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+*[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+th, td { padding: 0px; }
+
+
+/* valign */
+th, td { vertical-align: top; }
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+    text-align: center;
+    width: 100%;
+}
+
+.calendar header {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+.calendar .le_calendrier {
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+
+.calendar .le_calendrier h2 {
+    /*text-transform: uppercase;*/
+}
+
+.calendar .le_calendrier thead {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+
+.calendar .le_calendrier tbody {
+    color: #7c8a95;
+}
+
+.calendar .le_calendrier tbody td:hover {
+    border: 2px solid #f55ada;
+}
+
+.calendar .le_calendrier td {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    width: 14%;
+    /* min-width : 44px; */
+    white-space: nowrap;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+    color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+    border: 2px solid #cbd1d2;
+}
+
+.current-day {
+    background: #f55ada;
+    color: #f9f9f9;
+}
+
+.event {
+    cursor: pointer;
+    position: relative;
+}
+
+.event:after {
+    background: #f55ada;
+    border-radius: 50%;
+    bottom: .5em;
+    display: block;
+    content: '';
+    height: .5em;
+    left: 50%;
+    margin: -.25em 0 0 -.25em;
+    position: absolute;
+    width: .5em;
+}
+
+.event.current-day:after {
+    background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+    border: 2px solid #f55ada;
+    border-radius: 50%;
+    color: #f55ada;
+    height: 40px;
+    font-size: 25px;
+    line-height: 2em;
+    margin: -1em;
+    position: absolute;
+    /* top: 50%; */
+    width: 40px;
+    padding-top: 5px;
+}
+.btn-prev {
+    margin-left: -25%;
+}
+
+.btn-next {
+    margin-right: -25%;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background: #f55ada;
+    color: #f9f9f9;
+}
+
+.btn-prev {
+    left: 6em;
+}
+
+.btn-next {
+    right: 6em;
+}
+
+.selectionner {
+    border: 2px solid #f55ada !important;
+}
+
+/** style venant de style.css */
+.prev-ecoul {
+    background-color: red !important;
+    color: white !important;
+}
+
+.prev-fille1 {
+    background-color: #FA58F4 !important;
+    color: white !important;
+}
+
+.prev-fille2 {
+    background-color: #DA81F5 !important;
+    color: white !important;
+}
+
+.prev-ovul {
+    background-color: #8258FA !important;
+    color: white !important;
+}
+
+.prev-gar {
+    background-color: #5882FA !important;
+    color: white !important;
+}
+
+.prev-fin-cycle {
+    background-color: #01DF74 !important;
+    color: white !important;
+}
+
+.prev-ecoul-text {
+    color: red !important;
+    background-color: white !important;
+}
+
+.prev-fille1-text {
+    color: #FA58F4 !important;
+    background-color: white !important;
+}
+
+.prev-fille2-text {
+    color: #DA81F5 !important;
+    background-color: white !important;
+}
+
+.prev-ovul-text {
+    color: #8258FA !important;
+    background-color: white !important;
+}
+
+.prev-gar-text {
+    color: #5882FA !important;
+    background-color: white !important;
+}
+
+.prev-fin-cycle-text {
+    color: #01DF74 !important;
+    background-color: white !important;
+}
+
+.legende-color {
+    padding: 4px !important;
+    margin-right: 8px !important;
+    margin-bottom: 25px !important;
+}
+.legende-text {
+    color: #828282;
+    font-size: 1.2em;
+}
+td span {
+    /* padding: 1em; */
+    border-radius: 50%;
+    width: 100%;
+    display: inline-block;
+}
+
+.icon-etat {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #f55ada;
+}
+.date-etat {
+    font-size: 12px;
+    color: #9493da;
+    margin-top: -40px;
+}
+.box-etat {
+    border-bottom: 1px solid #eaeaea;
+}
+.box-etat2 {
+    margin-top: 6px;
+}
+.paragraph-etat {
+    margin-bottom: 0.6em !important;
+}
+
+.class-prev-mois {
+    float: left;
+    margin-top: -25px;
+    padding: 8px;
+    border: 1px solid #f55ada;
+    border-radius: 50%;
+}
+
+.class-next-mois {
+    float: right;
+    /* float: left; */
+    margin-top: -25px;
+    padding: 8px;
+    border: 1px solid #f55ada;
+    border-radius: 50%;
+}
+
+.class-imag-pay {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p strong em {
+    color: #5496fd;
+}
+
+.class-box-soutien {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.margin-param {
+    margin-bottom: 10px;
+}
+
+.class-fixed {
+    position: fixed !important;
+}
+
+.space-prevision {
+    margin-bottom: 65px;
+}
+
+.icon-etat1 {
+    color: #f55ada !important;
+}
+.icon-prev {
+    color: #6ea2f3 !important;
+}
+
+.icon-param {
+    color: #10e222 !important;
+}
+.icon-contact {
+    color: #0ccacc !important;
+}
+.icon-don {
+    color: #ffb406 !important;
+}
+.icon-notif {
+    color: #d9534f !important;
+}
+.icon-discu {
+    color: #7665f5 !important;
+}
+
+.bg_general {
+    /*background: url('assets/images/bg/bg6.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.no-marginm {
+    margin: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d94fce;
+}
+.bs-callout {
+    border-left: 5px solid #f55ada;
+    border-bottom: 1px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.bs-callout:hover {
+    border-left: 5px solid red;
+}
+
+#content1 {
+    max-height: 430px;
+    overflow-y: scroll;
+}
+
+/** mon style */
+/* couleur des messages d'erreur */
+.text-rose {
+    color: #FF69B4;
+}
+
+/* couleur des bouton */
+.btn-rose {
+    background-color: #FF69B4;
+}
+
+/* couleur des titres h4 */
+.text-titre {
+    color: #0ec2ff;
+}
+
+/* couleur du texte sur les boutons */
+.btn-text {
+    color: black;
+}
+
+/** fin mon style **/
+
+/** fin style de style.css **/
+
+.calendar {
+    text-align: center;
+    width: 100%;
+}
+
+.calendar header {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+.calendar .le_calendrier {
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+
+.calendar .le_calendrier h2 {
+    /*text-transform: uppercase;*/
+}
+
+.calendar .le_calendrier thead {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+
+.calendar .le_calendrier tbody {
+    color: #7c8a95;
+}
+
+.calendar .le_calendrier tbody td:hover {
+    border: 2px solid #f55ada;
+}
+
+.calendar .le_calendrier td {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    width: 14%;
+    /* min-width : 44px; */
+    white-space: nowrap;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+    color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+    border: 2px solid #cbd1d2;
+}
+
+.current-day {
+    background: #f55ada;
+    color: #f9f9f9;
+}
+
+.event {
+    cursor: pointer;
+    position: relative;
+}
+
+.event:after {
+    background: #f55ada;
+    border-radius: 50%;
+    bottom: .5em;
+    display: block;
+    content: '';
+    height: .5em;
+    left: 50%;
+    margin: -.25em 0 0 -.25em;
+    position: absolute;
+    width: .5em;
+}
+
+.event.current-day:after {
+    background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+    border: 2px solid #f55ada;
+    border-radius: 50%;
+    color: #f55ada;
+    height: 40px;
+    font-size: 25px;
+    line-height: 2em;
+    margin: -1em;
+    position: absolute;
+    /* top: 50%; */
+    width: 40px;
+    padding-top: 5px;
+}
+.btn-prev {
+    margin-left: -25%;
+}
+
+.btn-next {
+    margin-right: -25%;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background: #f55ada;
+    color: #f9f9f9;
+}
+
+.btn-prev {
+    left: 6em;
+}
+
+.btn-next {
+    right: 6em;
+}
+
+.selectionner {
+    border: 2px solid #f55ada !important;
+}
+
+.space-prevision .legende-text {
+    color: gray;
+    font-size: 0.8em !important;
+}
+
+
+#le_calendrier td span {
+    border-radius: 0% !important;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px !important;
+}
+#le_calendrier .selectionner {
+    border: 2px solid #f55ada !important;
+    border-radius: 0% !important;
+    height: 4.3em;
+}
+.fin-cycle{
+    background-color: #01DF74 !important;
+}
+
+#save-param-user-msg span{
+    color : #005f00;
+    background-color: #76ea5e;
+    border: 1px solid #00af00;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 0.9em;
+}

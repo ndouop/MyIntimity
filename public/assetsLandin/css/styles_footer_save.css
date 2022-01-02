@@ -1,0 +1,86 @@
+/* footer section */
+footer {
+  padding: 80px 0;
+  text-align: center;
+}
+footer a > img {
+  width: 100px;
+}
+footer .social {
+  display: block;
+  margin-top: 30px;
+}
+footer .social a {
+  margin: 0 8px;
+  padding: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+footer .social a i {
+  width: 1em;
+}
+footer .rights {
+  margin-top: 30px;
+}
+footer .rights a {
+  text-decoration: underline;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-weight: bold;
+}
+footer .rights a:hover {
+  text-decoration: none;
+}
+
+
+/* footer section */
+footer {
+  background: #ff5be3;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ff5be3 0%, #336799 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff5be3), color-stop(100%, #336799));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ff5be3 0%, #336799 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ff5be3 0%, #336799 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ff5be3 0%, #336799 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #ff5be3 0%, #336799 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5be3, endColorstr=#336799, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+footer .social a {
+  border: 2px solid #ffffff;
+}
+footer .social a i {
+  color: #ffffff;
+}
+footer .social a:hover {
+  background: #ffffff;
+}
+footer .social a:hover i {
+  color: #ff5be3;
+}
+footer .rights {
+  color: #ffffff;
+}
+footer .rights a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}

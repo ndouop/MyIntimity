@@ -1,0 +1,54 @@
+.subject{
+	width: inherit;
+	margin:15px;
+	margin-top:20px!important;
+}
+
+.subject-heading{
+	height: 50px;
+	width: inherit;
+	border:white;
+	border-radius: 0px;
+}
+
+.subject-img-poster{
+	position: absolute;
+	height: 50px!important;
+	max-height: 50px!important;
+	border-radius: 0;
+	width: 50px;
+	left: 0px;
+}
+.subject-xxxx-poster{
+	position: absolute;
+	left: 58px;
+	margin-left: 16px;
+	font-size: 13px;
+}
+.subject-name-poster{
+	text-decoration: none;
+	font-size: 14.5px;
+	font-weight:bold;
+}
+.subject-date-post{
+	opacity: .6;
+	font-size: 11px;
+	color: gray;
+}
+.subject .subject-body{
+	margin-top: 10px;
+}
+.subject-content-text{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+a.subject-like-btn-text{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 10px;
+}
+.m{
+
+}

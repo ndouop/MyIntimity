@@ -1,0 +1,221 @@
+.conversation-wrap
+{
+    box-shadow: -2px 0 3px #ddd;
+    padding:0;
+    max-height: 400px;
+    overflow: auto;
+}
+.conversation
+{
+    padding:5px;
+    border-bottom:1px solid #ddd;
+    margin: 5px;
+
+}
+.conversation:hover
+{
+    background-color: #b2bfcc;
+}
+
+
+.conversationSelect
+{
+    padding:5px;
+    border-bottom:3px solid #221e88;
+    border-left:3px solid #221e88;
+    border-top:3px solid #221e88;
+    background-color: #b2bfcc;
+    margin:0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin: 5px;
+
+}
+
+.message-wrap
+{
+    box-shadow: 0 0 3px #ddd;
+    padding:0;
+
+}
+.msg
+{
+    padding:5px;
+    /*border-bottom:1px solid #ddd;*/
+    margin:0;
+}
+.msg-wrap
+{
+    padding:10px;
+    overflow: auto;
+    height: 25em;
+
+}
+
+.time
+{
+    color: #838589;
+}
+
+.send-wrap
+{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding:10px;
+    /*background: #f8f8f8;*/
+}
+
+.send-message
+{
+    resize: none;
+}
+
+.highlight
+{
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+.send-message-btn
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-bottom-right-radius: 0;
+}
+.btn-panel
+{
+    background: #f7f7f9;
+}
+
+.btn-panel .btn
+{
+    color:#b8b8b8;
+
+    transition: 0.2s all ease-in-out;
+}
+
+.btn-panel .btn:hover
+{
+    color:#666;
+    background: #f8f8f8;
+}
+.btn-panel .btn:active
+{
+    background: #f8f8f8;
+    box-shadow: 0 0 1px #ddd;
+}
+
+.btn-panel-conversation .btn,.btn-panel-msg .btn
+{
+
+    background: #f8f8f8;
+}
+.btn-panel-conversation .btn:first-child
+{
+    border-right: 1px solid #ddd;
+}
+
+.msg-wrap .media-heading
+{
+    color:#003bb3;
+    font-weight: 700;
+}
+
+
+.msg-date
+{
+    background: none;
+    text-align: center;
+    color:#aaa;
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+body::-webkit-scrollbar {
+    width: 18px;
+}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
+    /*        -webkit-border-radius: 10px;
+            border-radius: 10px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*        -webkit-border-radius: 10px;
+            border-radius: 10px;*/
+    background:#ddd;
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #999999;
+}
+
+
+.separation
+{
+    padding: 1.6em;
+    border-bottom: 1px solid #dddddd;
+}
+
+.boxAdminMessage
+{
+    background-color: #043464;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-align: justify;
+}
+.ladateDuMessage
+{
+    margin-top: 15px;
+}
+
+.boxAdminMessageUser
+{
+    background-color: RGBA(238, 238, 239, 0.38);
+    color: #000000;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+
+.user_name_contact
+{
+    height: 2em;
+    padding-left: 2.5em;
+    padding-top: 0.3em;
+    font-size: 1em;
+
+
+}
+
+.remove_user_list{
+    color: black;
+    float: right;
+    margin-top: -1.8em;
+    background-color: #1e84ce;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.remove_user_list:hover{
+    background-color: #1668ce;
+}
+
+.numero_user
+{
+    color: black;
+}

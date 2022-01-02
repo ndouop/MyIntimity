@@ -1,0 +1,104 @@
+
+
+/****************************** menu deroulant *************************************/
+#menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+}
+#menu-demo2 li{
+    display:inline-block;
+    position:relative;
+}
+#menu-demo2 ul li{
+    display:inherit;
+}
+#menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+}
+#menu-demo2 li ul{
+    max-height:15em;
+    min-width: 300px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    padding: 10px;
+    display: none;
+
+}
+#menu-demo2 li:hover ul{
+    max-height:15em;
+    display: block;
+    position: absolute;
+    min-width: 250px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    padding: 10px;
+
+}
+#menu-demo2 li:hover ul li{
+    height:3em;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #99afc5;
+
+}
+#menu-demo2 li:hover ul li:last-child{
+    height:3em;
+    width: 100%;
+    background-color: white;
+    border-bottom: none;
+
+}
+
+
+/* les a href */
+#menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 32px;
+    color:#777;
+    font-family:arial;
+}
+#menu-demo2 ul a{
+
+}
+#menu-demo2 li:hover li a{
+    color:#777;
+    text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color: #399afe;
+}
+.menu-user
+{
+    /*background-color: #00aa00;*/
+    height: 2.3em;
+    padding: 0.3em 3em;
+    color: #65d362 !important;
+    border: 2px solid #65d362;
+    text-align: center;
+}
+.menu-user > a
+{
+    /*background-color: #00aa00;*/
+    padding: 0 !important;
+    color: #59bb56 !important;
+    text-align: left;
+}
+
+.menu-user:hover
+{
+    /*background-color: #009400;*/
+    border: 2px solid #59bb56;
+    color: #59bb56 !important;
+}
+

@@ -1,0 +1,198 @@
+
+
+/************************************* style footer *******************************/
+
+footer {
+    margin-top: 25px;
+    width: 100% !important;
+}
+
+footer .line1 {
+    background-color: #d34cbf;
+}
+
+.social ul {
+    display: inline;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+}
+
+footer .line2 {
+    /* height : 2em; */
+    background-color: #150112 !important;
+}
+
+#downMenu li {
+    display: inline;
+    margin-left: 2em;
+}
+
+.espace-top-bottom-footer {
+    margin-top: 15px;
+    /* margin-bottom : 15px; */
+}
+
+.espace-titre-footer {
+    margin-top: 15px;
+    color: white !important;
+}
+
+.slide2 {
+    width: 100% !important;
+}
+
+.f-btn {
+    background-color: #5555de;
+    color: white;
+}
+
+.f-btn:hover {
+    background-color: #8888de;
+    color: white;
+}
+
+.g-btn {
+    background-color: #ff5555;
+    color: white;
+}
+
+.g-btn:hover {
+    background-color: #ff8888;
+    color: white;
+}
+
+.t-btn {
+    background-color: #58b2f3;
+    color: white;
+}
+
+.t-btn:hover {
+    background-color: #69c3f3;
+    color: white;
+}
+
+.like-footer {
+    color: white !important;
+}
+
+.margin-menu {
+    margin-left: 25px;
+}
+
+.sign-box .sign-avatar2 img {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.logo-google-play {
+    width: 100%;
+}
+
+.no-padding-top {
+    padding-top: 0px !important;
+}
+
+.no-padding-top:hover {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.bloc-soutien {
+    padding: 2em;
+    width: 100% !important;
+    background-color: white;
+    border-bottom: 1px solid #d8e2e7;
+    border-left: 1px solid #d8e2e7;
+    border-right: 1px solid #d8e2e7;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.lalegende {
+    font-size: 1em;
+    color: gray;
+    text-align: left !important;
+}
+
+.lalegende .rouge {
+    background-color: #ff5757 !important;
+    border: 1px solid #dddddd;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.lalegende .rose {
+    background-color: #ff00bc !important;
+    border: 1px solid #dddddd;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.lalegende .bleu {
+    background-color: #00a8ff !important;
+    border: 1px solid #dddddd;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.lalegende .vert {
+    background-color: #e7fae6 !important;
+    border: 1px solid #0dcc13;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.lalegende .blanc {
+    background-color: white !important;
+    border: 1px solid #dddddd;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.bloc-lengende-prevision {
+    border-bottom: 1px solid #d8e2e7;
+    margin-bottom: 25px;
+    border-top: 1px solid #d8e2e7;
+    margin-top: 25px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.class-imag-pay {
+    max-height: 75%;
+    width: auto;
+    max-width: 100% !important;
+    vertical-align: center;
+}
+
+.btn-repondre {
+    background-color: rgba(0, 168, 255, 0);
+    border-color: rgba(0, 168, 255, 0);
+    color: #0082c6 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.btn-repondre:hover {
+    background-color: rgba(0, 168, 255, 0);
+    border-color: rgba(0, 168, 255, 0);
+    color: #e0089c !important;
+}
+.espace-top-bottom-footer p{
+    color: white !important;
+}
+
+.text-news-letter{
+	color : white !important;
+}
+
+.link-footer{
+    color: white;
+    margin-right: 15px;
+}
+.link-footer:hover{
+    color: white;
+    text-decoration: underline;
+}
